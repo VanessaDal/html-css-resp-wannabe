@@ -73,6 +73,7 @@ img {
 }
 
 @media screen and (max-width: 419px) {
+
 *{margin:2%;
  }
 
@@ -87,6 +88,14 @@ img {
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: contain;
   }
 
 
