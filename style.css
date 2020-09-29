@@ -71,3 +71,23 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 419px) {
+*{margin:2%;
+ }
+
+  .row {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+  }
+
+
+}
